@@ -1,2 +1,2 @@
 # calculator
-A simple calculator app. Add, divide, multiply, and divide!
+A simple calculator app. Add, subtract, multiply, and divide!
