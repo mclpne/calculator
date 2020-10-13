@@ -1,13 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
-    font-family: Gotham Rounded, sans-serif;
+    font-family: "Varela Round", sans-serif;
     font-weight: normal;
+    font-size: 16px;
 }
-
-/* #f79c85 */
-/* #f06e82 */
 
 body {
     padding: 0;
@@ -15,25 +15,25 @@ body {
     background: linear-gradient(to right, #f06e82, #f79c85);
 }
 
-.calculator-grid {
+.calculator {
     display: grid;
     justify-content: center;
     align-content: center;
     min-height: 100vh;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 80px);
 }
 
-.calculator-grid > button {
+.calculator > button {
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.6rem;
     border: 1px solid #ffffff;
     outline: none;
     background-color: rgba(255, 255, 255, 0.75);
     transition: all 0.2s;
 }
 
-.calculator-grid > button:hover {
+.calculator > button:hover {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
